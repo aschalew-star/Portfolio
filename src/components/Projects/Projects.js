@@ -27,7 +27,25 @@ function Projects() {
               demoLink="#"
             />
           </Col>
-
+ <Col md={4} className="project-card">
+            <ProjectCard
+              // imgPath={chatify}
+              isBlog={false}
+              title="MEP"
+              description="Merchant exchange platform for ethiopian traditional cloths for sell merchants on platform by register, components realtime chat ,payment in chapa,manage all using MERN crud ."
+              ghLink="https://github.com/aschalew-star/MEP-defence"
+              demoLink="#"
+            />
+          </Col> <Col md={4} className="project-card">
+            <ProjectCard
+              // imgPath={chatify}
+              isBlog={false}
+              title="MEP"
+              description="Merchant exchange platform for ethiopian traditional cloths for sell merchants on platform by register, components realtime chat ,payment in chapa,manage all using MERN crud ."
+              ghLink="https://github.com/aschalew-star/MEP-defence"
+              demoLink="#"
+            />
+          </Col>
       
         </Row>
       </Container>
